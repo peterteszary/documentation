@@ -1,0 +1,19 @@
+{
+  "name": "helper",
+  "version": "0.0.1",
+  "description": "documentation for peterteszary.com clients",
+  "main": "index.js",
+  "authors": {
+    "name": "Peter Teszáry",
+    "email": "peterteszary@gmail.com"
+  },
+  "repository": "https://github.com/peterteszary/documentation/helper",
+  "scripts": {
+    "dev": "vuepress dev src --host localhost --temp .temp",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
